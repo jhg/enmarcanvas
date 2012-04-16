@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Marcos canvas</title>
+    <script type="text/javascript" src="windowOnloadAdd.js"></script>
+    <script type="text/javascript" src="enmarcar_imagen.js"></script>
+  </head>
+  <body style="text-align:center;vertical-align:middle;">
+    <script>
+    var fotob = new cuadro ("foto_2.jpg", 200, 300);
+    fotob.marco ("marcos/marco2.jpg",30);
+    var fotoc = new cuadro ("foto_2.jpg",300,null);
+    fotoc.marco ("marcos/marco2.jpg",40);
+    fotoc.marco ("marcos/marco1.bmp",40);
+    var fotoa = new cuadro ("foto_2.png", null,null);
+    fotoa.marco ("marcos/marco1.bmp",90);
+    var fotob = new cuadro ("foto_2.jpg", 200, 300);
+    fotob.marco ("marcos/marco2.bmp",30);
+    var fotoc = new cuadro ("foto_2.jpg",300,null);
+    fotoc.marco ("marcos/marco3.bmp",40);
+    fotoc.marco ("marcos/marco2.bmp",40);
+    var fotoa = new cuadro ("foto_2.png", null,null);
+    fotoa.marco ("marcos/marco3.bmp",90);
+    </script>
+  </body>
+</html>
